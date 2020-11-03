@@ -2,6 +2,7 @@ $(document).ready(function() {
 
     $('.next').click(function() {
 
+        var currentActiveEl = $('img.active , i.active')
         currentActiveEl.removeClass('active')
 
         if (currentActiveEl.hasClass('last')) {
